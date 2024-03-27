@@ -9,23 +9,29 @@
 .flex{
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
     width: 100%;
+    justify-content: space-between;
+
 }
+
+
 .item {
     border: 1px solid #ccc;
     margin-bottom: 10px;
     padding-bottom: 10px;
     background-color: white;
-    padding: 50px;
+    padding: 30px;
+    width: 50%;
+    margin-top: 50px;
+    border-radius: 10px;
+    justify-content: space-between;
   }
   
-  .quantity {
-    display: inline-block;
+  /* .quantity {
+    
   }
-  
+   */
+
   .quantity input {
     width: 40px;
     text-align: center;
